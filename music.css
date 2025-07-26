@@ -1,0 +1,25 @@
+.music-button {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 9999;
+  text-align: center;
+}
+
+.music-button button {
+  background-color: #1e1e2f;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 0 10px rgba(0,255,255,0.3);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.music-button button:hover {
+  background-color: #33334d;
+  transform: scale(1.05);
+}
